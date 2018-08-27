@@ -10,7 +10,10 @@
   "bin": {
     "p-eslint": "bin/p-eslint.js",
     "p-babel": "bin/p-babel.js",
-    "p-jest": "bin/p-jest.js"
+    "p-jest": "bin/p-jest.js",
+    "p-typescript": "bin/p-typescript.js",
+    "p-typescript-server": "bin/typescript-server.js",
+    "p-tslint": "bin/p-tslint.js"
   },
   "repository": {
     "type": "git",
