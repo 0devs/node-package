@@ -1,0 +1,15 @@
+const baseConfig = require('./base');
+
+module.exports = {
+  devDependencies: {
+    ...baseConfig.devDependencies,
+    jest: '^24.9.0',
+    'babel-cli': '^6.26.0',
+    'babel-core': '^6.26.3',
+    'babel-eslint': '^10.0.3',
+    'babel-jest': '^24.9.0',
+    'babel-preset-env': '^1.7.0',
+    'eslint-plugin-import': '^2.7.0',
+    'eslint-plugin-lodash': '^6.0.0',
+  },
+};

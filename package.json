@@ -4,16 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --ext .js,.ts .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postversion": "git push && git push --tags"
   },
   "bin": {
-    "p-eslint": "bin/p-eslint.js",
-    "p-babel": "bin/p-babel.js",
-    "p-jest": "bin/p-jest.js",
-    "p-typescript": "bin/p-typescript.js",
-    "p-typescript-server": "bin/p-typescript-server.js",
-    "p-tslint": "bin/p-tslint.js"
+    "ts-dev": "./bin/ts-dev.js",
+    "js-dev": "./bin/js-dev.js"
   },
   "repository": {
     "type": "git",
@@ -25,21 +22,23 @@
     "url": "https://github.com/0devs/node-package/issues"
   },
   "homepage": "https://github.com/0devs/node-package#readme",
-  "dependencies": {
+  "devDependencies": {
     "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.14",
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "babel-preset-env": "^1.7.0",
-    "eslint": "^6.6.0",
+    "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^23.0.3",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-lodash": "^6.0.0",
     "jest": "^24.9.0",
-    "ts-jest": "^24.1.0",
-    "tslint": "^5.20.1",
-    "tslint-sonarts": "^1.9.0",
+    "ts-jest": "^24.2.0",
     "typescript": "^3.7.2"
   }
 }
