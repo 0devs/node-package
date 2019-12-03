@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     'airbnb-base',
     'plugin:sonarjs/recommended',
+    'plugin:jest/recommended',
     // 'plugin:security/recommended',
   ],
   rules: {
