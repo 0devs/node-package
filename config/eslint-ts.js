@@ -9,6 +9,7 @@ module.exports = {
     // 'plugin:security/recommended',
   ],
   rules: {
+    'max-len': ['error', { code: 120 }],
     'no-underscore-dangle': 'off',
     'class-methods-use-this': 'off',
     'prefer-destructuring': 'off',
