@@ -4,6 +4,8 @@ module.exports = {
     'airbnb-base',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:sonarjs/recommended',
+    // 'plugin:security/recommended',
   ],
   rules: {
     'no-underscore-dangle': 'off',
@@ -15,5 +17,7 @@ module.exports = {
   },
   plugins: [
     'jest',
+    'sonarjs',
+    // 'security',
   ],
 };
