@@ -9,8 +9,10 @@
     "postversion": "git push && git push --tags"
   },
   "bin": {
-    "ts-dev": "./bin/ts-dev.js",
-    "js-dev": "./bin/js-dev.js"
+    "ts-dev-init": "./bin/ts-dev-init.js",
+    "js-dev-init": "./bin/ts-dev-init.js",
+    "ts-dev-update-deps": "./bin/ts-dev-update-deps.js",
+    "js-dev-update-deps": "./bin/js-dev-update-deps.js"
   },
   "repository": {
     "type": "git",
